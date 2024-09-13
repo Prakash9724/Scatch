@@ -9,6 +9,8 @@ const usersRouter = require('./routes/usersRouter');
 const productRouter = require('./routes/productRouter');
 
 
+require('dotenv').config();
+
 
 
 app.use(express.json());
